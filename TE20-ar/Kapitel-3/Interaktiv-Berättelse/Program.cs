@@ -39,7 +39,7 @@ namespace Interaktiv_Berättelse
               string answer3 = Console.ReadLine();
               if (answer3 == "överge")
               {
-                  Console.WriteLine("Du lyfter upp din fellow råtta och kastar honom åt motsatt håll du kom från! Men, det fanns tydligen en katt där! Råttan du kastade sprang fram till dig och kastade istället dig, nu blev istället du offret!  Vila i frid...");
+                  Console.WriteLine("Du lyfter upp din fellow råtta och kastar honom åt motsatt håll du kom från! Men, det fanns tydligen en katt där! Råttan du kastade sprang fram till dig och kastade dig, nu blev du offret istället!  Vila i frid...");
                   Console.WriteLine("THE END");
               }
               else
