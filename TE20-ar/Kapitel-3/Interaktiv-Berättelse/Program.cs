@@ -9,7 +9,7 @@ namespace Interaktiv_Berättelse
         {
             Console.OutputEncoding = Encoding.UTF8;
             Console.Clear();
-            Console.Write("Interaktiv berättelse. Du är en liten råtta vid namn August. Du måste snabbt fly hem innan det blir morgon så att du kan sno din husägares ost. ");
+            Console.Write("Interaktiv berättelse. Du är en liten råtta som snabbt måste fly hem innan det blir morgon så att du kan sno din husägares ost. ");
  
             Console.WriteLine("Först, väljer du att gå åt höger eller vänster? (vänster/höger) ");
             string answer1 = Console.ReadLine();
@@ -21,7 +21,7 @@ namespace Interaktiv_Berättelse
  
                 if (answer2 == "kylskåpet")
                 {
-                     Console.WriteLine("Den var inte där, August! Kylskåpsdörren stängdes bakom dig och du frös till döds. Må du vila i frid...");
+                     Console.WriteLine("Den var inte där, tyvärr! Kylskåpsdörren stängdes bakom dig och du frös till döds. Må du vila i frid...");
                     Console.WriteLine("THE END");
                 }
                 else
