@@ -15,18 +15,18 @@ namespace Interaktiv_Berättelse
             string answer1 = Console.ReadLine();
             if (answer1 == "vänster")
             {
-                Console.Write("Du stötte på katten Gustav, han åt upp dig för han trodde du var lasagne :( Du tror att du är död, men du lever faktiskt inuti katten! Detta betyder att du lätt och snabbt kan bryta dig in i huset nu medans du gömmer dig i Gustav...");
-                Console.WriteLine(" Du lyckades till slut komma ur katten och är nu inuti köket. Väljer du att leta efter osten i kylskåpet eller på bordet? (kylskäpet/bordet) ");
+                Console.Write("Du stötte på en katt, han åt upp dig! Tur nog lyckades du överleva inuti katten, detta betyder att du snabbt och lätt kan bryta dig in i huset nu medans du gömmer dig i katten...");
+                Console.WriteLine(" Du är nu inuti köket. Väljer du att leta efter osten i kylskåpet eller på bordet? (kylskåpet/bordet) ");
                 string answer2 = Console.ReadLine();
  
                 if (answer2 == "kylskåpet")
                 {
-                     Console.WriteLine("Den var inte där, Kim! Kylskåpsdörren stängdes bakom dig och du frös till döds. Må du vila i frid...");
+                     Console.WriteLine("Den var inte där, August! Kylskåpsdörren stängdes bakom dig och du frös till döds. Må du vila i frid...");
                     Console.WriteLine("THE END");
                 }
                 else
                 {
-                    Console.WriteLine("Du hittade osten på bordet tur nog! Nu får du äntligen njuta av ditt hårda arbete och käka lite smarrig pastoriserad mjölk, grattis! 🤪");
+                    Console.WriteLine("Du hittade osten på bordet tur nog! Nu får du äntligen njuta av ditt hårda arbete och käka lite smarrig pastöriserad mjölk, grattis! 🤪");
                     Console.WriteLine("THE END");
                 }
  
@@ -35,11 +35,11 @@ namespace Interaktiv_Berättelse
             {
               
               Console.Write("Mot höger hittade du en annan råtta med samma mål som du. Vad vill du göra med denna nyfunna råttan...?");
-              Console.Write(" Överge eller bli vän? (överge/vän) ");  
+              Console.Write(" Överge eller bli vän med? (överge/vän) ");  
               string answer3 = Console.ReadLine();
               if (answer3 == "överge")
               {
-                  Console.WriteLine("Du lyfter upp din fellow råtta och kastar honom åt motsatt håll du kom från! Men, det fanns tydligen en katt där! Råttan du kastade sprang fram till dig och kastade istället dig som, nu blev istället du offret!  Du är död snart...");
+                  Console.WriteLine("Du lyfter upp din fellow råtta och kastar honom åt motsatt håll du kom från! Men, det fanns tydligen en katt där! Råttan du kastade sprang fram till dig och kastade istället dig, nu blev istället du offret!  Vila i frid...");
                   Console.WriteLine("THE END");
               }
               else
