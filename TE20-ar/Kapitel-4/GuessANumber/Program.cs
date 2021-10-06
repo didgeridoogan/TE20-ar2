@@ -35,6 +35,8 @@ namespace GuessANumber
             { 
                 Console.WriteLine($"Bra gissat! Du gjorde det på {räknare} försök");
                 break;
+                Console.Clear();
+
             }
 
             //Jämför med slumptal
