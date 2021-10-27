@@ -16,7 +16,6 @@ namespace Prov_1
             {
                 Console.WriteLine($"{namn}, bruttolön måste vara mellan 10000-45000!");
             }
-
             else
             {
             Console.Write("Ange din skattesats i %: ");
