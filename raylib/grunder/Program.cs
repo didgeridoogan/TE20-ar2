@@ -27,15 +27,15 @@ namespace grunder
                 //Tömma ritytan
                 Raylib.ClearBackground(Color.GRAY);
 
-                //Rita Ukrainas flagga
-                Raylib.DrawRectangle(100,100,600,400,Color.YELLOW);
-                Raylib.DrawRectangle(100,100,600,200,Color.BLUE);
+                //Rita flagga
+                Raylib.DrawRectangle(100,100,600,400,Color.DARKBLUE);
 
-                //Rita en fin cirkel
-                Raylib.DrawCircle(400,300,100,Color.GOLD);
+                //Rita en fin halvmåne
+                Raylib.DrawCircle(350,300,100,Color.WHITE);
+                Raylib.DrawCircle(400,300,100,Color.DARKBLUE);
 
                 //Rita text
-                Raylib.DrawText("Hallå där!",100,500,50, Color.DARKBLUE);
+                Raylib.DrawText("Hallå där!",100,500,50, Color.WHITE);
 
                 //Sluta rita
                 Raylib.EndDrawing();
