@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wx5e713xdRcizjybTIQI3guM+21oIzgqiqa7S/bpcgBuwu4vKYKHTxx4FhxP4TdbLGXhSLGbGL49zT12/XKUHQ==",
+  "success": true,
+  "projectFilePath": "C:\\github\\raylib\\grunder\\grunder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dogan.dilara\\.nuget\\packages\\raylib-cs\\3.7.0.1\\raylib-cs.3.7.0.1.nupkg.sha512",
+    "C:\\Users\\dogan.dilara\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
