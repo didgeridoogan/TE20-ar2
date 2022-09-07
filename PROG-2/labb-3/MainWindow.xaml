@@ -19,7 +19,7 @@
             <TextBox Name="rutaText" Margin="5" Height="50" Width="250" TextWrapping="Wrap" VerticalScrollBarVisibility="auto"></TextBox>
         </StackPanel>
 
-        <Button Namn="KlickSkicka" Margin="5" Padding="5">Skicka!</Button>
-        <TextBlock Background="#FFF" >Inga meddelanden...</TextBlock>
+        <Button Click="KlickSkicka" Margin="5" Padding="5">Skicka!</Button>
+        <TextBlock Name="rutaStatus" Background="#FFF" >Inga meddelanden...</TextBlock>
     </StackPanel>
 </Window>

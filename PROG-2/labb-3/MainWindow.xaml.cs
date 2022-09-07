@@ -29,7 +29,7 @@ namespace labb_3
         private void KlickSkicka(object sender, RoutedEventArgs e)
         {
             //Kontrollera att inte epost eller text är tomt
-            if (rutaEpost.text == "" || rutaText.Text == "")
+            if (rutaEpost.Text == "" || rutaText.Text == "")
             {
                 rutaStatus.Text = "Vg ange epost och meddelande";
             }
