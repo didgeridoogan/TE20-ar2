@@ -1,0 +1,25 @@
+﻿<Window x:Class="labb_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:labb_3"
+        mc:Ignorable="d"
+        Title="Min Första App" Height="300" Width="500" Background="#EEE">
+    <StackPanel Margin="5">
+        <Label FontSize="32" FontWeight="Bold">Meddelanden</Label>
+        
+        <StackPanel Orientation="Horizontal">
+            <Label Margin="5" Width="100">Ange epost</Label>
+            <TextBox Name="rutaEpost" Margin="5" Width="250"></TextBox>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+            <Label Margin="5" Width="100">Ange text</Label>
+            <TextBox Name="rutaText" Margin="5" Height="50" Width="250" TextWrapping="Wrap" VerticalScrollBarVisibility="auto"></TextBox>
+        </StackPanel>
+
+        <Button Namn="KlickSkicka" Margin="5" Padding="5">Skicka!</Button>
+        <TextBlock Background="#FFF" >Inga meddelanden...</TextBlock>
+    </StackPanel>
+</Window>
